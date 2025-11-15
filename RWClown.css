@@ -15,6 +15,31 @@
 
 /*
 ////////////////////////////////////////////////////////////////////////////////
+// 1.5 GLOBAL BODY BACKGROUND (CARNIVAL TENT STRIPES)
+////////////////////////////////////////////////////////////////////////////////
+*/
+body, .ant-layout, .ant-layout-content {
+  background: #1a0f0a !important;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent,
+    transparent 15px,
+    rgba(139, 58, 58, 0.08) 15px,
+    rgba(139, 58, 58, 0.08) 30px
+  ),
+  repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 15px,
+    rgba(90, 58, 42, 0.06) 15px,
+    rgba(90, 58, 42, 0.06) 30px
+  ) !important;
+  background-size: 100% 100% !important;
+  background-position: 0 0 !important;
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////
 // 2. CORE THEME & LAYOUT
 ////////////////////////////////////////////////////////////////////////////////
 */
